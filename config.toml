@@ -1,0 +1,23 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Arsh Punia'
+theme = "PaperMod"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "arcive"
+name = "Archive"
+url = "/archive/"
+weight = 20
+
+[Params]
+ShowReadingTime = true
+
+
+
+
