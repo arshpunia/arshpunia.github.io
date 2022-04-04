@@ -2,6 +2,7 @@ baseURL = 'https://arshpunia.github.io/'
 languageCode = 'en-us'
 title = 'Arsh Punia'
 theme = "PaperMod"
+publishDir = "public"
 
 [[menu.main]]
 identifier = "about"
