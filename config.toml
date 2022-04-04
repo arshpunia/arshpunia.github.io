@@ -1,0 +1,28 @@
+baseURL = 'https://arshpunia.github.io/'
+languageCode = 'en-us'
+title = 'Arsh Punia'
+theme = "PaperMod"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "archive"
+name = "Archive"
+url = "/archive/"
+weight = 20
+
+[[menu.main]]
+identifier = "reads"
+name = "Reads"
+url = "/reads/"
+weight = 30
+
+[Params]
+ShowReadingTime = true
+#ShowShareButtons = true
+
+
