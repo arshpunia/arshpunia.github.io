@@ -26,7 +26,6 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers
 - Bad Blood: Secrets and Lies in a Silicon Valley Startup
 - Private Empire: ExxonMobil and American Power
-- The Checklist Manifesto: How to Get Things Right
 - The Atomic Bazaar: Dispatches from the Underground World of Nuclear Trafficking
 
 ### Fiction ###
