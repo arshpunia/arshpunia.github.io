@@ -13,7 +13,7 @@ draft: false
 
 I recently had to build for the use-case where a single scene in Unity would contain multiple video players. Each of these video players had to play/pause a video based on the position of the player relative to the respective `VideoPlayer` object [^1].
 
-Being the Unity n00b I am, I started small and worked with a regular VideoPlayer that displayed the video on a `RawImage`. The `VideoPlayer` and `RawImage` were rendering onto a `RenderTexture`. Once I had the spatial components working, I created a Prefab out of this structure[^2] and instantiated multiple copies of it onto a test scene. (Somewhat) unbenownst to me, all these copies were referencing the exact same `RenderTexture`.
+Being the Unity n00b I am, I started small and worked with a regular VideoPlayer that displayed the video on a `RawImage`. The `VideoPlayer` and `RawImage` were rendering onto a `RenderTexture`. Once I had the spatial components working, I created a Prefab out of this structure and instantiated multiple copies of it onto a test scene. (Somewhat) unbenownst to me, all these copies were referencing the exact same `RenderTexture`.
 
 ### The Bug ###
 With the exception of one, none of the prefabs were responding to the player's position relative position. It's clear that they were _recognizing_ the player's position, and the respective condition was being triggered - somehow the `VideoPlayer.Play()` in that condition was not responding. 
@@ -36,4 +36,3 @@ currRawImage.texture = rt;
 The above fragment will assign a new `RenderTexture` to each video player surface.
 
 [^1]: A video would play only if the player was within a certain range of the video player. If said player moved out of range, the video would pause.  
-[^2]: Insert details on the structure itself
