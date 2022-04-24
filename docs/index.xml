@@ -6,7 +6,16 @@
     <description>Recent content on Arsh Punia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Feb 2022 18:22:14 -0500</lastBuildDate><atom:link href="https://arshpunia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 09:05:07 -0400</lastBuildDate><atom:link href="https://arshpunia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Http_options_request</title>
+      <link>https://arshpunia.github.io/posts/http_options_request/</link>
+      <pubDate>Sun, 24 Apr 2022 09:05:07 -0400</pubDate>
+      
+      <guid>https://arshpunia.github.io/posts/http_options_request/</guid>
+      <description>Options Request and CORS Policies </description>
+    </item>
+    
     <item>
       <title>Video Player Prefabs in Unity</title>
       <link>https://arshpunia.github.io/posts/unityprefab/</link>
