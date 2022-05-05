@@ -8,12 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Apr 2022 09:05:07 -0400</lastBuildDate><atom:link href="https://arshpunia.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Http_options_request</title>
+      <title>CORS, Preflight Requests, and OPTIONS Method</title>
       <link>https://arshpunia.github.io/posts/http_options_request/</link>
       <pubDate>Sun, 24 Apr 2022 09:05:07 -0400</pubDate>
       
       <guid>https://arshpunia.github.io/posts/http_options_request/</guid>
-      <description>Options Request and CORS Policies </description>
+      <description>Background In working on a .NET backend recently, we ran into the following error whenever a request was made from the browser:
+Cross Origin Rrequest Blocked: The Same Origin Policy disallows reading the remote resource at &amp;lt;backend-deployment-url&amp;gt;. (Reason: CORS header &#39;Access-Control-Allow-Origin&#39; missing). Status Code: 405. It is worth noting that the GET/POST requests were wroking fine using curl.
+CORS, Preflight Requests, and the curious case of 200 OK From the MDN Web Docs</description>
     </item>
     
     <item>
