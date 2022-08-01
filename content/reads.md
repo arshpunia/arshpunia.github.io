@@ -11,7 +11,7 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 ## Books ##
 
 ### Non-Fiction ###
-
+- Slouching Towards Bethlehem
 - The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution
 - How to do Nothing: Resisting the Attention Economy
 - The Everything Store: Jeff Bezos and the Age of Amazon
@@ -29,9 +29,11 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - The Atomic Bazaar: Dispatches from the Underground World of Nuclear Trafficking
 
 ### Fiction ###
-
+- The Dispossessed
 - The Stranger
 - Station Eleven
+- Sea of Tranquility
+- The Glass Hotel
 - Turbulence
 - Brave New World
 - The Namesake: A Novel
@@ -40,12 +42,6 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - Exhalation
 - Stories of Your Life and Others
 
-
-## Essays ##
-
-- [My first impressions of Web3 - Moxie Marlinspike](https://moxie.org/2022/01/07/web3-first-impressions.html)
-- [The days are long but the decades are short - Sam Altman](https://blog.samaltman.com/the-days-are-long-but-the-decades-are-short)
-- [The Bulldozer v/s vetocracy political axis - Vitalik Buterin](https://vitalik.eth.limo/general/2021/12/19/bullveto.html)
 
 ## People ##
 
@@ -56,8 +52,10 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - [Ava](https://ava.substack.com/)
 - [Dan Luu](https://danluu.com/)
 - [Dan Wang](https://danwang.co/)
+- [Simon Willison](https://simonwillison.net/)
 
 ## Web ##
 - [Hacker News](https://news.ycombinator.com/)
 - [Marginal Revolution](https://marginalrevolution.com/)
 - [Money Stuff - Bloomberg](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine)
+- [The Marginanial](https://www.themarginalian.org/)
