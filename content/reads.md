@@ -59,3 +59,5 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - [Marginal Revolution](https://marginalrevolution.com/)
 - [Money Stuff - Bloomberg](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine)
 - [The Marginanial](https://www.themarginalian.org/)
+- [Architecture Notes](https://architecturenotes.co/)
+- [ByteByteGo](https://blog.bytebytego.com/)
