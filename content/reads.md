@@ -17,7 +17,6 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - The Everything Store: Jeff Bezos and the Age of Amazon
 - The Inconvenient Indian: A Curious Account of Native People in North America
 - The Attention Merchants: The Epic Scramble to Get Inside Our Heads
-- Capitalist Realism: Is There No Alternative?
 - The Curse of Bigness: Antitrust in the New Gilded Age
 - Sahara Unveiled: A Journey Across the Desert
 - Steal Like an Artist: 10 Things Nobody Told You About Being Creative
