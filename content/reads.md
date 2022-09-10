@@ -49,7 +49,6 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - [Patrick McKenzie](https://www.kalzumeus.com/)
 - [Patrick Collison](https://patrickcollison.com/)
 - [Tyler Cowen](https://marginalrevolution.com/)
-- [Ava](https://ava.substack.com/)
 - [Dan Luu](https://danluu.com/)
 - [Dan Wang](https://danwang.co/)
 - [Simon Willison](https://simonwillison.net/)

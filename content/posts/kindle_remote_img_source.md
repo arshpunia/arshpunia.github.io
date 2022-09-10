@@ -15,7 +15,7 @@ Upon pointing the `src` attributes to a local image of a [chicken nugget](https:
 
 ## Lessons Learnt ##
 
-There's two key lessons I drew from this experience. First, EPUBs can effectively be thought of as ZIP files [^1] with a few added bells and whistles ([more details in the next section](#appendix---understanding-epubs)). This makes it easier to consider one's e-books as self-contained respositories of text, metadata, and assets; as opposed to a single HTML file. 
+There's two key lessons I drew from this experience. First, EPUBs can effectively be thought of as ZIP files [^1] with a few added bells and whistles ([more details in the next section](#appendix---understanding-epubs)). This makes it easier to consider one's e-books as self-contained respositories of text, metadata, and assets; as opposed to a single HTML file - a fallacy one is especially vulnerable to in the case of stand-alone articles. 
 
 Second, as a developer, it is important to consider the constraints and limitations of the system that will eventually run your code. It was erronous judgement on my part to not consider that most Kindles are not always online and would therefore not support remote asset retrieval.   
 
