@@ -6,7 +6,16 @@
     <description>Recent content on Arsh Punia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Aug 2022 23:36:40 -0400</lastBuildDate><atom:link href="https://arshpunia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Sep 2022 13:40:56 -0400</lastBuildDate><atom:link href="https://arshpunia.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kindle, Remote Assets, and EPUBs </title>
+      <link>https://arshpunia.github.io/posts/kindle_remote_img_source/</link>
+      <pubDate>Fri, 09 Sep 2022 13:40:56 -0400</pubDate>
+      
+      <guid>https://arshpunia.github.io/posts/kindle_remote_img_source/</guid>
+      <description>EPUBs are more than just ZIP files</description>
+    </item>
+    
     <item>
       <title>SQLite Notes</title>
       <link>https://arshpunia.github.io/posts/sqlite_learnings/</link>
