@@ -23,6 +23,7 @@ url = "/reads/"
 weight = 30
 
 [Params]
+env = "production"
 ShowReadingTime = true
 #ShowShareButtons = true
 

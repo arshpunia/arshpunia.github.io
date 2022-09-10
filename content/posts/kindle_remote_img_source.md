@@ -7,7 +7,7 @@ draft: false
 ---
 
 
-I recently created an HTML file, converted it to EPUB, and sent it to my Kindle. While the files were loading correctly (including images) in both formats on my desktop, the Kindle would not display the images. Instead, it was showing a camera thumbnail as a placeholder. 
+I recently created an HTML file, converted it to EPUB, and sent it to my Kindle. While the files were loading correctly (including images) in both formats on my desktop, the Kindle would not display the images. Instead, it was showing a thumbnail of a camera as a placeholder. 
 
 Presumably, the issue lay with how the Kindle was handling the EPUB. Some preliminary research took me to [Kindle Direct Publishing's image guidelines](https://kdp.amazon.com/en_US/help/topic/G75V4YX5X8GRGXWV). In the code samples here, all the inline images were stored locally. The `src` attributes of the `img` tags in my original HTML, however, were all referencing assets on remote servers. 
 
