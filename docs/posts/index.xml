@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Arsh Punia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Sep 2022 13:40:56 -0400</lastBuildDate><atom:link href="https://arshpunia.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Sep 2022 00:11:59 -0400</lastBuildDate><atom:link href="https://arshpunia.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQLite Notes - Part 2</title>
+      <link>https://arshpunia.github.io/posts/sqlite_notes_part2/</link>
+      <pubDate>Wed, 21 Sep 2022 00:11:59 -0400</pubDate>
+      
+      <guid>https://arshpunia.github.io/posts/sqlite_notes_part2/</guid>
+      <description>Part 1
+From the SQLite FAQs:
+ SQLite will easily do 50,000 or more INSERT statements per second on an average desktop computer. But it will only do a few dozen transactions per second.
+ In the Python sqlite3 module, any transaction1 needs to be committed before changes are saved in the database (Source). This is achieved by calling con.commit() on the connection object.
+I ran a quick and dirty test in Python to understand the performance impact of commit frequency.</description>
+    </item>
+    
     <item>
       <title>Kindle, Remote Assets, and EPUBs </title>
       <link>https://arshpunia.github.io/posts/kindle_remote_img_source/</link>

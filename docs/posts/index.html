@@ -146,6 +146,22 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>SQLite Notes - Part 2
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>Part 1
+From the SQLite FAQs:
+ SQLite will easily do 50,000 or more INSERT statements per second on an average desktop computer. But it will only do a few dozen transactions per second.
+ In the Python sqlite3 module, any transaction1 needs to be committed before changes are saved in the database (Source). This is achieved by calling con.commit() on the connection object.
+I ran a quick and dirty test in Python to understand the performance impact of commit frequency....</p>
+  </section>
+  <footer class="entry-footer"><span title='2022-09-21 00:11:59 -0400 EDT'>September 21, 2022</span>&nbsp;·&nbsp;2 min</footer>
+  <a class="entry-link" aria-label="post link to SQLite Notes - Part 2" href="https://arshpunia.github.io/posts/sqlite_notes_part2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Kindle, Remote Assets, and EPUBs 
     </h2>
   </header>
