@@ -27,6 +27,7 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - Steve Coll, _Private Empire: ExxonMobil and American Power_
 - William Langewiesche, _The Atomic Bazaar: Dispatches from the Underground World of Nuclear Trafficking_
 - Anthony Bourdain, _Kitchen Confidential: Adventures in the Culinary Underbelly_
+- Dan Davies, _Lying for Money: How Legendary Frauds Reveal the Workings of the World_
 
 ### Fiction ###
 - Ursula K. Le Guin, _The Dispossessed_
@@ -48,15 +49,19 @@ I maintain a list of the content that I engage with or have enjoyed/been fascina
 - [Julia Evans](https://jvns.ca/)
 - [Patrick McKenzie](https://www.kalzumeus.com/)
 - [Patrick Collison](https://patrickcollison.com/)
-- [Tyler Cowen](https://marginalrevolution.com/)
 - [Dan Luu](https://danluu.com/)
 - [Dan Wang](https://danwang.co/)
 - [Simon Willison](https://simonwillison.net/)
+- [Molly White](https://www.mollywhite.net/)
+- [Jason Kottke](https://kottke.org/)
+- [Derek Thompson](https://www.theatlantic.com/author/derek-thompson/)
 
 ## Web ##
 - [Hacker News](https://news.ycombinator.com/)
-- [Marginal Revolution](https://marginalrevolution.com/)
 - [Money Stuff - Bloomberg](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine)
 - [The Marginanial](https://www.themarginalian.org/)
 - [Architecture Notes](https://architecturenotes.co/)
 - [ByteByteGo](https://blog.bytebytego.com/)
+- [The Diff](https://www.thediff.co/)
+- [PBS Spacetime](https://www.youtube.com/c/pbsspacetime)
+- [3Blue1Brown](https://www.youtube.com/results?search_query=3blue1brown)

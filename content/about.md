@@ -5,9 +5,11 @@ draft: false
 summary: about
 ShowBreadCrumbs: true
 ---
-I live in Toronto and study Software Engineering at [York University](https://yorku.ca). I have previously lived in Montreal, Ottawa, [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh), New Delhi, Mumbai, and Pune.
+I live in Toronto and work as a consulting analyst in the infrastructure engineering space. I have previously lived in Montreal, Ottawa, [Chandigarh](https://en.wikipedia.org/wiki/Chandigarh), New Delhi, Mumbai, and Pune.
 
-My interests include systems architecture, security, and privacy. 
+My interests include cloud architecture, security, and privacy. 
+
+I graduated from York University in October 2022 with First-Class Honors in Software Engineering. 
 
 ## Contact ##
-Email: arshp98 \[at\] my \[dot\] yorku \[dot\] ca
+Email: punia \[dot\] arsh \[at\] outlook \[dot\] com
