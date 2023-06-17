@@ -22,6 +22,12 @@ name = "Reads"
 url = "/reads/"
 weight = 30
 
+[[menu.main]]
+identifier = "links"
+name = "Links"
+url = "/links/"
+weight = 40
+
 [Params]
 env = "production"
 ShowReadingTime = true
