@@ -7,6 +7,17 @@ ShowToc: true
 ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
+
+## August 2023 ##
+- [Max Levchin on a Shamir Secret Sharing implementation gone wrong](https://max.levch.in/post/724289457144070144/shamir-secret-sharing) 
+
+## July 2023 ##
+- [A compilation of known LK-99 replication attempts](https://forums.spacebattles.com/threads/claims-of-room-temperature-and-ambient-pressure-superconductor.1106083/page-11?post=94266395#post-94266395)
+   - See also [LK-99: The Live Online Race for a Room-Temperature Superconductor (Summary)](https://eirifu.wordpress.com/2023/07/30/lk-99-superconductor-summary/)
+- [This New Yorker profile of Larry Gagosian](https://www.newyorker.com/magazine/2023/07/31/larry-gagosian-profile)
+- [James Somers on the importance of working quickly](https://jsomers.net/blog/speed-matters)
+
+
 ## June 2023 ##
 - [World Capitals Voronoi](https://www.jasondavies.com/maps/voronoi/capitals/)
 > World territories have been redrawn so that a region is determined by the closest capital city. This is calculated using a spherical Voronoi diagram, which takes into account the curvature of the Earth when computing distances.
