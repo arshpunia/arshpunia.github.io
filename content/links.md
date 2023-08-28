@@ -9,7 +9,22 @@ ShowReadingTime: false
 ---
 
 ## August 2023 ##
+- A [book review](https://www.thepsmiths.com/p/review-against-the-grain-by-james) of _Against the Grain_ by James Scott.  
+- A [book review](https://astralcodexten.substack.com/p/your-book-review-the-mind-of-a-bee) of _The Mind of a Bee_ by Lars Chittka. 
+
+The review asks some really important questions about what it means to be conscious and when exactly do we, or rather bees, go from being "programmed" to actually being "conscious". 
+
+For instance: 
+> Honey bees also build their combs vertically, so that honey doesn’t leak out. But they don’t build them purely vertically - they keep it at an angle so that the honey’s viscosity and adhesion keep it inside the vessel. The cells are tilted slightly downwards.
+
+However:
+> Bees can also do it in space. There were bees on a Challenger mission in 1984 (two years before the tragedy), and zero-g-bees constructed honeycombs with cells of normal dimensions, combining that with other trivial details like learning to fly in space. The difference between space ‘combs and earth ‘combs? The bees got rid of the slight angle downwards - there’s no gravity in space, and thus no need for the angle.
+
+- [This](https://gwern.net/complement#2) 2018 piece from _gwern_ on commodotizing one's complement
+- [Samo Burja's Great Founder Theory](https://www.samoburja.com/great-founder-theory/)
+- [Tyler Cowen's conversation with Paul Graham](https://conversationswithtyler.com/episodes/paul-graham/)
 - [Max Levchin on a Shamir Secret Sharing implementation gone wrong](https://max.levch.in/post/724289457144070144/shamir-secret-sharing) 
+   - Having learnt a similar lesson [before](https://arshpunia.github.io/posts/kindle_remote_img_source/), I'll take some pride in having at least one thing commong with Levchin. 
 
 ## July 2023 ##
 - [A compilation of known LK-99 replication attempts](https://forums.spacebattles.com/threads/claims-of-room-temperature-and-ambient-pressure-superconductor.1106083/page-11?post=94266395#post-94266395)
