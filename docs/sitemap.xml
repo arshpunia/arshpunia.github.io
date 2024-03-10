@@ -1,43 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>https://arshpunia.github.io/</loc>
-    <lastmod>2022-09-21T00:11:59-04:00</lastmod>
-  </url><url>
     <loc>https://arshpunia.github.io/posts/</loc>
     <lastmod>2022-09-21T00:11:59-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/posts/sqlite_notes_part2/</loc>
     <lastmod>2022-09-21T00:11:59-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/posts/kindle_remote_img_source/</loc>
     <lastmod>2022-09-09T13:40:56-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/posts/sqlite_learnings/</loc>
     <lastmod>2022-08-18T23:36:40-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/posts/http_options_request/</loc>
     <lastmod>2022-04-24T09:05:07-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/posts/unityprefab/</loc>
     <lastmod>2022-02-22T18:22:14-05:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://arshpunia.github.io/</loc>
+    <lastmod>2022-02-17T22:00:41-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/reads/</loc>
     <lastmod>2022-02-17T22:00:41-05:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/archive/</loc>
     <lastmod>2022-02-15T23:10:31-05:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/posts/s3presignedurls/</loc>
     <lastmod>2022-02-15T23:03:27-05:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/about/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/links/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://arshpunia.github.io/tags/</loc>
   </url>
+  
 </urlset>

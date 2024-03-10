@@ -7,11 +7,11 @@
 <meta name="robots" content="index, follow">
 <title>Video Player Prefabs in Unity | Arsh Punia</title>
 <meta name="keywords" content="" />
-<meta name="description" content="TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture&rsquo;s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players.">
+<meta name="description" content="TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture&#39;s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players.">
 <meta name="author" content="">
 <link rel="canonical" href="https://arshpunia.github.io/posts/unityprefab/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.e21185e6c4b43ff34c81666f70aa4f80140274057866888c0a5c28addc9b7fd2.css" integrity="sha256-4hGF5sS0P/NMgWZvcKpPgBQCdAV4ZoiMClwordybf9I=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://arshpunia.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://arshpunia.github.io/favicon-16x16.png">
@@ -57,7 +57,7 @@
 
     </style>
 </noscript><meta property="og:title" content="Video Player Prefabs in Unity" />
-<meta property="og:description" content="TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture&rsquo;s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players." />
+<meta property="og:description" content="TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture&#39;s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://arshpunia.github.io/posts/unityprefab/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-02-22T18:22:14-05:00" />
@@ -65,20 +65,14 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Video Player Prefabs in Unity"/>
-<meta name="twitter:description" content="TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture&rsquo;s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players."/>
+<meta name="twitter:description" content="TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture&#39;s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players."/>
 
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://arshpunia.github.io/posts/"
-    }, 
+  "itemListElement": [, 
     {
       "@type": "ListItem",
       "position":  2 ,
@@ -94,12 +88,12 @@
   "@type": "BlogPosting",
   "headline": "Video Player Prefabs in Unity",
   "name": "Video Player Prefabs in Unity",
-  "description": "TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture\u0026rsquo;s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players.",
+  "description": "TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture's at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players.",
   "keywords": [
     
   ],
-  "articleBody": "TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture’s at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players. Each of these video players had to play/pause a video based on the position of the player relative to the respective VideoPlayer object 1.\nBeing the Unity n00b I am, I started small and worked with a regular VideoPlayer that displayed the video on a RawImage. The VideoPlayer and RawImage were rendering onto a RenderTexture. Once I had the spatial components working, I created a Prefab out of this structure and instantiated multiple copies of it onto a test scene. (Somewhat) unbenownst to me, all these copies were referencing the exact same RenderTexture.\nThe Bug With the exception of one, none of the prefabs were responding to the player’s position relative position. It’s clear that they were recognizing the player’s position, and the respective condition was being triggered - somehow the VideoPlayer.Play() in that condition was not responding.\nThe aforementioned exception was the first prefab in the object hierarchy. If the player went near that one prefab, the videos on all the prefabs in the scene would start playing - the relative distance to those other prefabs notwithstanding.\nThe Diagnosis I manually assigned new and different RenderTexture’s to the VideoPlayer and RawImage objects in each prefab instance. The individual prefabs were now responsive to the player’s relative position without impacting the behaviour of other prefabs in the scene.\nThe Fix Ultimately the long-term fix is to generate new RenderTexture components for each such prefab and assign it to the prefab’s respective VideoPlayer and RawImage. This can be done in-script using the RenderTexture API. Some basic code may look like:\nRenderTexture rt = new RenderTexture(1920, 1080, 24); VideoPlayer currVp = GetComponentInChildren(); RawImage currRawImage = GetComponentInChildren(); currVp.targetTexture = rt; currRawImage.texture = rt; The above fragment will assign a new RenderTexture to each video player surface.\n  A video would play only if the player was within a certain range of the video player. If said player moved out of range, the video would pause. ↩︎\n   ",
-  "wordCount" : "388",
+  "articleBody": "TL;DR  If you are instantiating multiple video players in Unity as Prefab objects, make sure you generate their respective RenderTexture's at runtime.  RenderTexture API   Multiple VideoPlayer objects rendering onto the same texture may cause issues in use-cases where you need individual VideoPlayer objects to respond differently.  What Happened I recently had to build for the use-case where a single scene in Unity would contain multiple video players. Each of these video players had to play/pause a video based on the position of the player relative to the respective VideoPlayer object 1.\nBeing the Unity n00b I am, I started small and worked with a regular VideoPlayer that displayed the video on a RawImage. The VideoPlayer and RawImage were rendering onto a RenderTexture. Once I had the spatial components working, I created a Prefab out of this structure and instantiated multiple copies of it onto a test scene. (Somewhat) unbenownst to me, all these copies were referencing the exact same RenderTexture.\nThe Bug With the exception of one, none of the prefabs were responding to the player’s position relative position. It’s clear that they were recognizing the player’s position, and the respective condition was being triggered - somehow the VideoPlayer.Play() in that condition was not responding.\nThe aforementioned exception was the first prefab in the object hierarchy. If the player went near that one prefab, the videos on all the prefabs in the scene would start playing - the relative distance to those other prefabs notwithstanding.\nThe Diagnosis I manually assigned new and different RenderTexture's to the VideoPlayer and RawImage objects in each prefab instance. The individual prefabs were now responsive to the player’s relative position without impacting the behaviour of other prefabs in the scene.\nThe Fix Ultimately the long-term fix is to generate new RenderTexture components for each such prefab and assign it to the prefab’s respective VideoPlayer and RawImage. This can be done in-script using the RenderTexture API. Some basic code may look like:\nRenderTexture rt = new RenderTexture(1920, 1080, 24); VideoPlayer currVp = GetComponentInChildren(); RawImage currRawImage = GetComponentInChildren(); currVp.targetTexture = rt; currRawImage.texture = rt; The above fragment will assign a new RenderTexture to each video player surface.\n  A video would play only if the player was within a certain range of the video player. If said player moved out of range, the video would pause. ↩︎\n   ",
+  "wordCount" : "389",
   "inLanguage": "en",
   "datePublished": "2022-02-22T18:22:14-05:00",
   "dateModified": "2022-02-22T18:22:14-05:00",
@@ -194,26 +188,26 @@
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
+  <div class="post-content"><h2 id="tldr-">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr-">#</a></h2>
 <ul>
-<li>If you are instantiating multiple <a href="https://docs.unity3d.com/ScriptReference/Video.VideoPlayer.html">video players</a> in Unity as Prefab objects, make sure you generate their respective <code>RenderTexture</code>&rsquo;s at runtime.
+<li>If you are instantiating multiple <a href="https://docs.unity3d.com/ScriptReference/Video.VideoPlayer.html">video players</a> in Unity as Prefab objects, make sure you generate their respective <code>RenderTexture</code>'s at runtime.
 <ul>
 <li><a href="https://docs.unity3d.com/ScriptReference/RenderTexture.html">RenderTexture API</a></li>
 </ul>
 </li>
 <li>Multiple <code>VideoPlayer</code> objects rendering onto the same texture may cause issues in use-cases where you need individual <code>VideoPlayer</code> objects to respond differently.</li>
 </ul>
-<h2 id="what-happened">What Happened<a hidden class="anchor" aria-hidden="true" href="#what-happened">#</a></h2>
+<h2 id="what-happened-">What Happened<a hidden class="anchor" aria-hidden="true" href="#what-happened-">#</a></h2>
 <p>I recently had to build for the use-case where a single scene in Unity would contain multiple video players. Each of these video players had to play/pause a video based on the position of the player relative to the respective <code>VideoPlayer</code> object <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
 <p>Being the Unity n00b I am, I started small and worked with a regular VideoPlayer that displayed the video on a <code>RawImage</code>. The <code>VideoPlayer</code> and <code>RawImage</code> were rendering onto a <code>RenderTexture</code>. Once I had the spatial components working, I created a Prefab out of this structure and instantiated multiple copies of it onto a test scene. (Somewhat) unbenownst to me, all these copies were referencing the exact same <code>RenderTexture</code>.</p>
-<h3 id="the-bug">The Bug<a hidden class="anchor" aria-hidden="true" href="#the-bug">#</a></h3>
+<h3 id="the-bug-">The Bug<a hidden class="anchor" aria-hidden="true" href="#the-bug-">#</a></h3>
 <p>With the exception of one, none of the prefabs were responding to the player&rsquo;s position relative position. It&rsquo;s clear that they were <em>recognizing</em> the player&rsquo;s position, and the respective condition was being triggered - somehow the <code>VideoPlayer.Play()</code> in that condition was not responding.</p>
 <p>The aforementioned exception was the first prefab in the object hierarchy. If the player went near that one prefab, the videos on all the prefabs in the scene would start playing - the relative distance to those other prefabs notwithstanding.</p>
-<h3 id="the-diagnosis">The Diagnosis<a hidden class="anchor" aria-hidden="true" href="#the-diagnosis">#</a></h3>
-<p>I manually assigned new and different <code>RenderTexture</code>&rsquo;s to the <code>VideoPlayer</code> and <code>RawImage</code> objects in each prefab instance. The individual prefabs were now responsive to the player&rsquo;s relative position without impacting the behaviour of other prefabs in the scene.</p>
-<h3 id="the-fix">The Fix<a hidden class="anchor" aria-hidden="true" href="#the-fix">#</a></h3>
+<h3 id="the-diagnosis-">The Diagnosis<a hidden class="anchor" aria-hidden="true" href="#the-diagnosis-">#</a></h3>
+<p>I manually assigned new and different <code>RenderTexture</code>'s to the <code>VideoPlayer</code> and <code>RawImage</code> objects in each prefab instance. The individual prefabs were now responsive to the player&rsquo;s relative position without impacting the behaviour of other prefabs in the scene.</p>
+<h3 id="the-fix-">The Fix<a hidden class="anchor" aria-hidden="true" href="#the-fix-">#</a></h3>
 <p>Ultimately the long-term fix is to generate new <code>RenderTexture</code> components for each such prefab and assign it to the prefab&rsquo;s respective VideoPlayer and RawImage. This can be done in-script using the <a href="https://docs.unity3d.com/ScriptReference/RenderTexture.html">RenderTexture API</a>. Some basic code may look like:</p>
-<pre tabindex="0"><code>RenderTexture rt = new RenderTexture(1920, 1080, 24);
+<pre><code>RenderTexture rt = new RenderTexture(1920, 1080, 24);
 VideoPlayer currVp = GetComponentInChildren&lt;VideoPlayer&gt;();
 RawImage currRawImage = GetComponentInChildren&lt;RawImage&gt;();
 currVp.targetTexture = rt;
@@ -223,7 +217,7 @@ currRawImage.texture = rt;
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>A video would play only if the player was within a certain range of the video player. If said player moved out of range, the video would pause.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>A video would play only if the player was within a certain range of the video player. If said player moved out of range, the video would pause. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -237,7 +231,7 @@ currRawImage.texture = rt;
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://arshpunia.github.io/">Arsh Punia</a></span>
+    <span>&copy; 2024 <a href="https://arshpunia.github.io/">Arsh Punia</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

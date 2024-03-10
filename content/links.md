@@ -7,6 +7,8 @@ ShowToc: true
 ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
+## March 2024 ##
+- [Untangling Religion From Our AI Debates by Thomas Moynihan](https://www.noemamag.com/untangling-religion-from-our-ai-debates/)
 
 ## August 2023 ##
 - A [book review](https://www.thepsmiths.com/p/review-against-the-grain-by-james) of _Against the Grain_ by James Scott.  

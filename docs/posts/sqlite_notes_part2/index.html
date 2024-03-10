@@ -14,8 +14,8 @@ From the SQLite FAQs:
 I ran a quick and dirty test in Python to understand the performance impact of commit frequency.">
 <meta name="author" content="">
 <link rel="canonical" href="https://arshpunia.github.io/posts/sqlite_notes_part2/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.e21185e6c4b43ff34c81666f70aa4f80140274057866888c0a5c28addc9b7fd2.css" integrity="sha256-4hGF5sS0P/NMgWZvcKpPgBQCdAV4ZoiMClwordybf9I=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js" integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://arshpunia.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://arshpunia.github.io/favicon-16x16.png">
@@ -84,13 +84,7 @@ I ran a quick and dirty test in Python to understand the performance impact of c
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://arshpunia.github.io/posts/"
-    }, 
+  "itemListElement": [, 
     {
       "@type": "ListItem",
       "position":  2 ,
@@ -110,8 +104,8 @@ I ran a quick and dirty test in Python to understand the performance impact of c
   "keywords": [
     
   ],
-  "articleBody": "Part 1\nFrom the SQLite FAQs:\n SQLite will easily do 50,000 or more INSERT statements per second on an average desktop computer. But it will only do a few dozen transactions per second.\n In the Python sqlite3 module, any transaction1 needs to be committed before changes are saved in the database (Source). This is achieved by calling con.commit() on the connection object.\nI ran a quick and dirty test in Python to understand the performance impact of commit frequency. For my low-commit-frequency test (Test 1), I executed 100,000 INSERT statements and then committed them. For my high-commit-frequency test (Test 2), a commit was done after every INSERT was executed. Whereas the low-frequency test completed almost instantaneously, the high-freqency test was taking too long and I decided to abandon it. Instead, I shifted my focus to see how many commits I can achieve in roughly the same time it took for the low-frequency test to complete. The results were astonishing:\n   Test Entries Committed Time     Test 1 100,000 1.782 seconds   Test 2 10 1.748 seconds    In approximately the same time-frame, committing after multiple INSERT statements as opposed to after every such command, led to a 10,000x increase in write performance2.\nIn the event that you are writing multiple rows to a table, it is therefore advisable to execute multiple INSERT statements before you commit them (Of course, YMMV). As the FAQs say:\n The time needed to commit the transaction is amortized over all the enclosed insert statements and so the time per insert statement is greatly reduced.\n To that end, you can also use the sqlite3 module’s executemany(..) method.\n  An INSERT statement implicity opens a transaction ↩︎\n Please note that these numbers are the result of a single trial and more runs would need to be conducted to arrive at a more accurate representation of a performance increase. ↩︎\n   ",
-  "wordCount" : "305",
+  "articleBody": "Part 1\nFrom the SQLite FAQs:\n SQLite will easily do 50,000 or more INSERT statements per second on an average desktop computer. But it will only do a few dozen transactions per second.\n In the Python sqlite3 module, any transaction1 needs to be committed before changes are saved in the database (Source). This is achieved by calling con.commit() on the connection object.\nI ran a quick and dirty test in Python to understand the performance impact of commit frequency. For my low-commit-frequency test (Test 1), I executed 100,000 INSERT statements and then committed them. For my high-commit-frequency test (Test 2), a commit was done after every INSERT was executed. Whereas the low-frequency test completed almost instantaneously, the high-freqency test was taking too long and I decided to abandon it. Instead, I shifted my focus to see how many commits I can achieve in roughly the same time it took for the low-frequency test to complete. The results were astonishing:\n   Test Entries Committed Time     Test 1 100,000 1.782 seconds   Test 2 10 1.748 seconds    In approximately the same time-frame, committing after multiple INSERT statements as opposed to after every such command, led to a 10,000x increase in write performance2.\nIn the event that you are writing multiple rows to a table, it is therefore advisable to execute multiple INSERT statements before you commit them (Of course, YMMV). As the FAQs say:\n The time needed to commit the transaction is amortized over all the enclosed insert statements and so the time per insert statement is greatly reduced.\n To that end, you can also use the sqlite3 module’s executemany(..) method.\n  An INSERT statement implicity opens a transaction ↩︎\n Please note that these numbers are the result of a single trial and more runs would need to be conducted to arrive at a more accurate representation of a performance increase. ↩︎\n   ",
+  "wordCount" : "307",
   "inLanguage": "en",
   "datePublished": "2022-09-21T00:11:59-04:00",
   "dateModified": "2022-09-21T00:11:59-04:00",
@@ -244,10 +238,10 @@ I ran a quick and dirty test in Python to understand the performance impact of c
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p>An <code>INSERT</code> statement implicity opens a transaction&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>An <code>INSERT</code> statement implicity opens a transaction <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2" role="doc-endnote">
-<p>Please note that these numbers are the result of a single trial and more runs would need to be conducted to arrive at a more accurate representation of a performance increase.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Please note that these numbers are the result of a single trial and more runs would need to be conducted to arrive at a more accurate representation of a performance increase. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -261,7 +255,7 @@ I ran a quick and dirty test in Python to understand the performance impact of c
     </main>
     
 <footer class="footer">
-    <span>&copy; 2023 <a href="https://arshpunia.github.io/">Arsh Punia</a></span>
+    <span>&copy; 2024 <a href="https://arshpunia.github.io/">Arsh Punia</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
